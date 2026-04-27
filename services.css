@@ -1,0 +1,685 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #e0c3fc, #8ec5fc);
+    
+    color: #333;
+}
+
+
+
+.head1{
+    position: sticky;
+    top: 0;
+    background: rgb(36, 14, 43);
+}
+/**--navbar--**/
+
+.navbar{
+    height: 60px;
+    background-color:rgb(36, 14, 43);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 100px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(new\ logo\ .png);
+    background-size: cover;
+    height: 50px;
+    width: 210px;
+}
+
+/**---login---**/
+
+.add{
+    padding-left: 750px;
+    padding-top: 15px;
+    color: white;
+}
+
+.home{
+    padding-top: 15px;
+}
+
+.services134{
+    padding-top: 15px;
+}
+
+.about{
+    padding-top: 15px;
+}
+
+.cont{
+    padding-top: 15px;
+}
+
+/**--Powering Business--**/
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 10%;
+    min-height: 100vh;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+  
+.content {
+    flex: 1;
+    max-width: 600px;
+    z-index: 2;
+}
+  
+.content h1 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    line-height: 1.4;
+}
+  
+.highlight {
+    color: #6610f2;
+}
+  
+.content p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 24px;
+    max-width: 450px;
+}
+  
+.cta-btn {
+    background-color: #6610f2;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(102, 16, 242, 0.3);
+    transition: background 0.3s ease;
+}
+  
+.cta-btn:hover {
+    background-color: #510ac9;
+}
+  
+.features {
+    display: flex;
+    margin-top: 30px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    gap: 30px;
+    flex-wrap: wrap;
+}
+  
+.feature-item {
+    text-align: center;
+    flex: 1;
+} 
+  
+.ser{
+    color: black;
+}
+
+
+/**--About company--**/
+
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(white);
+}
+  
+.about-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+  
+.section-subtitle {
+    color: teal;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+  
+.section-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 10px 0 40px;
+    color: #1a1a2e;
+}
+  
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+  
+}
+  
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}
+  
+.card {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    padding: 30px;
+    max-width: 300px;
+    flex: 1;
+    text-align: center;
+}
+  
+.icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+  
+.center-image {
+    width: 100%;
+    border-radius: 20px;
+}
+  
+.card h3 {
+    font-size: 20px;
+    color: #1a1a2e;
+    margin-bottom: 10px;
+}
+  
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+  
+  
+  /**--Cardless Payments--**/
+  
+  
+.services {
+    margin-left: 80px;
+    display: flex;
+    gap: 40px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+    
+}
+  
+.service-card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    padding: 30px;
+    width: 300px;
+    
+    text-align: center;
+    transition: all 0.3s ease;
+    margin-left: 200px;
+}
+  
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}
+  
+.service-icon {
+    width: 60px;
+    margin-bottom: 20px;
+}
+  
+.service-card h3 {
+    font-size: 20px;
+    color: #1c1c3c;
+    margin-bottom: 15px;
+}
+  
+.service-card p {
+    font-size: 14px;
+    color: #7a7a7a;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+  
+.read-more-btn {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.read-more-btn:hover {
+    background-color: #ccc;
+}
+  
+  /**Secure transactions**/
+.access {
+    margin-left: 80px;
+    display: flex;
+    gap: 40px;
+    padding: 60px 20px;
+    flex-wrap: wrap;
+}
+  
+.service-time {
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin-left: 200px;
+}
+  
+.service-time:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+}
+  
+.service-icon1 {
+    width: 60px;
+    margin-bottom: 20px;
+}
+  
+.service-time h3 {
+    font-size: 20px;
+    color: #1c1c3c;
+    margin-bottom: 15px;
+}
+  
+.service-time p {
+    font-size: 14px;
+    color: #7a7a7a;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+  
+.read-more-btn {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.read-more-btn:hover {
+    background-color: #ccc;
+}
+  
+  
+/**--square box--**/  
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", sans-serif;
+    background-color: #fff;
+}
+  
+.faq-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+  
+.faq-card {
+    width: 200px;
+    height: 200px;
+    background: #f4f4f4;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    transform: rotate(var(--rotate));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    font-weight: 500;
+}
+  
+.faq-card:hover {
+    transform: rotate(0deg) scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+  
+  
+  /**--News--**/
+  
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+  
+.subscribe-section {
+    position: relative;
+    background: url('https://images.unsplash.com/photo-1595152772835-219674b2a8a0') no-repeat center center/cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    overflow: hidden;
+}
+  
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(75, 0, 130, 0.8); /* Deep purple overlay */
+    z-index: 1;
+}
+  
+.content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 0 20px;
+}
+  
+.content h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+  
+.content p {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+
+.newspra{
+    color: white;
+}
+  
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+  
+.subscribe-form input {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    width: 250px;
+    max-width: 90%;
+}
+  
+.subscribe-form button {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    color: #000;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+.subscribe-form button:hover {
+    background-color: #dddddd;
+}
+  
+  
+  
+  
+ 
+
+/**
+body{
+    min-height: 100vh;
+    
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+  
+  }
+  **/
+  .scroller{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: white;
+    padding: 1rem 0;
+  }
+  
+  .scroller-inner{
+    display: inline-flex;
+    gap: 10rem;
+    animation: scroll 20s linear infinite;
+  }
+  
+  .scroller-item{
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .scroller-item img {
+    height: 70px;
+    width: auto;
+    
+  }
+  
+  
+  .scroller-inner::after{
+    content: attr(data-content);
+    display: inline-flex;
+    gap: 2rem;
+  }
+  
+  
+  @keyframes scroll{
+    0%{
+      transform: translateX(0);
+    }
+    100%{
+      transform: translateX(-50%);
+    }
+  
+  }
+  
+
+
+
+
+
+
+/**--Get touch--**/
+  
+  
+  
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+  
+.contact-section {
+    border-top: 2px solid white;
+    background-color: #5d2d91;
+    color: #fff;
+    padding: 50px 20px;
+}
+  
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+  
+.contact-image img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+}
+  
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+}
+  
+.contact-form h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+  
+.contact-form p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #ddd;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+  
+.form-row {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+  
+form input,
+form textarea {
+    flex: 1;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    font-size: 14px;
+}
+  
+form input::placeholder,
+form textarea::placeholder {
+    color: #ccc;
+}
+  
+form textarea {
+    resize: none;
+}
+  
+form button {
+    align-self: flex-start;
+    padding: 12px 25px;
+    background-color: white;
+    color: #5d2d91;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+form button:hover {
+    background-color: #e0e0e0;
+}
+  
+
+/**--footer--**/
+
+.footer{
+    
+    height: 500px;
+    width: 1455px;
+    background-color: rgb(250, 207, 90);
+    
+    
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+ul{
+    margin-top: 90px;
+} 
+
+ul p {
+    color: black;
+    font-size: 25px;
+}
+
+ul a {
+    display: block;
+    font-size: 15px;
+    margin: 12px;
+    color: black;
+}
+
+
+
+/**--footer2--**/
+
+.footer2{
+    height: auto; /* Allow it to adjust to content */
+    width: 1455px;
+    
+    padding: 20px 40px;
+    border-top: 1px solid black;
+    background-color: rgb(250, 207, 90);
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Spread items evenly */
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    gap: 20px; /* Space between items */
+}
+
+.foot-panel2 img {
+    max-width: 240px;
+    height: auto;
+}
+
+.copy {
+    color:black;
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.instagram, .facebook, .twitter, .linkedin {
+    font-size: 30px;
+    color: black;
+    margin: 0 10px;
+}

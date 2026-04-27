@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    border: border-box;
+}
+
+.head1{
+  position: sticky;
+  top: 0;
+  background: rgb(36, 14, 43);
+}
+
+/**---nav-bar---**/
+.navbar{
+    height: 60px;
+    background-color:rgb(36, 14, 43);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 100px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(new\ logo\ .png);
+    background-size: cover;
+    height: 50px;
+    width: 210px;
+}
+
+
+.add{
+    padding-left: 750px;
+    padding-top: 15px;
+    color: white;
+}
+
+.home{
+    padding-top: 15px;
+}
+
+.services{
+    padding-top: 15px;
+}
+
+.about{
+    padding-top: 15px;
+}
+
+.cont{
+    padding-top: 15px;
+}
+
+/**--dotted Background--**/
+
+body {
+    margin: 0;
+    background-color: #f3f8ec; /* Light greenish background */
+    }
+.dotted-bg {
+   
+    height: 80vh;
+    background-image: radial-gradient(#b6beb3 1px, transparent 1px);
+    background-size: 20px 20px; /* spacing between dots */
+}
+    
+
+/**--Photo1--**/
+
+.phase2{
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+.img{
+    border-radius: 30px;
+}
+
+
+/**--Get touch--**/
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .contact-section {
+    border-top: 2px solid white;
+    background-color: #5d2d91;
+    color: #fff;
+    padding: 50px 20px;
+  }
+  
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-image img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+  }
+  
+  .contact-form {
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .contact-form h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .contact-form p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #ddd;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  
+  form input,
+  form textarea {
+    flex: 1;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.15);
+    color: white;
+    font-size: 14px;
+  }
+  
+  form input::placeholder,
+  form textarea::placeholder {
+    color: #ccc;
+  }
+  
+  form textarea {
+    resize: none;
+  }
+  
+  form button {
+    align-self: flex-start;
+    padding: 12px 25px;
+    background-color: white;
+    color: #5d2d91;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #e0e0e0;
+  }
+  
+
+
+
+/**--dotted Background--**/
+
+  body {
+    margin: 0;
+    background-color: #f3f8ec; /* Light greenish background */
+    }
+.dotted1-bg {
+   
+    height: 100vh;
+    background-image: radial-gradient(#b6beb3 1px, transparent 1px);
+    background-size: 20px 20px; /* spacing between dots */
+}
+    
+
+
+/**--photo2--**/
+
+.phase2{
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+.img{
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.flotag{
+    font-size: 50px;
+    margin-left: 400px;
+    padding-top: 40px;
+}
+
+.flowtag{
+    font-size: 40px;
+    margin-left: 400px;
+    color: coral;
+    
+}
+
+
+
+
+/**--foot panel1--**/
+
+.foot-panel{
+    
+    height: 580px;
+    width: 1400px;
+    margin-left: 20px;
+    margin-top: 150px;
+    border-top-left-radius:150px;
+    border-top-right-radius: 150px;
+    background-color: rgb(1, 36, 1);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+ul{
+    margin-top: 90px;
+} 
+
+ul p {
+    color: white;
+    font-size: 25px;
+}
+
+ul a {
+    display: block;
+    font-size: 15px;
+    margin: 12px;
+    color: rgb(182, 185, 186);
+}
+ 
+/**---foot-panel2---**/
+.foot-panel2 {
+    height: auto; /* Allow it to adjust to content */
+    width: 1320px;
+    margin-left: 20px;
+    padding: 20px 40px;
+    border-top: 0.5px solid white;
+    background-color: rgb(1, 36, 1);
+    display: flex;
+    align-items: center; /* Vertically center items */
+    justify-content: space-between; /* Spread items evenly */
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    gap: 20px; /* Space between items */
+}
+
+.foot-panel2 img {
+    max-width: 240px;
+    height: auto;
+}
+
+.copy {
+    color: white;
+    flex: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.instagram, .facebook, .twitter, .linkedin {
+    font-size: 30px;
+    color: white;
+    margin: 0 10px;
+}
